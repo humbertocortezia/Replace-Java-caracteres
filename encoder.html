@@ -1,0 +1,165 @@
+private String substituirCaracteresEspeciais(String xml) {
+        
+    xml = xml.replaceAll("&atilde;", "ã");
+    xml = xml.replaceAll("&nbsp;", " ");
+    xml = xml.replaceAll("&ordm;", "°");
+    xml = xml.replaceAll("&mdash;", "—");
+    xml = xml.replaceAll("&ndash;", "–");
+    xml = xml.replaceAll("&Ccedil;", "Ç");
+    xml = xml.replaceAll("&ccedil;", "ç");
+    xml = xml.replaceAll("&Otilde;", "Õ");
+    xml = xml.replaceAll("&otilde;", "õ");
+
+    xml = xml.replaceAll("&ldquo;", "“");
+    xml = xml.replaceAll("&rdquo;", "”");
+    xml = xml.replaceAll("&lsquo;", "‘");
+    xml = xml.replaceAll("&rsquo;", "’");
+    
+    xml = xml.replaceAll("&apos;", "'");
+//            xml = xml.replaceAll("&amp;", "&");
+//            xml = xml.replaceAll("&lt;", "<");
+    xml = xml.replaceAll("&gt;", ">");
+    xml = xml.replaceAll("&iexcl;", "¡");
+    xml = xml.replaceAll("&cent;", "¢");
+    xml = xml.replaceAll("&pound;", "£");
+
+    xml = xml.replaceAll("&curren;", "¤");
+    xml = xml.replaceAll("&yen;", "¥");
+    xml = xml.replaceAll("&brvbar;", "¦");
+    xml = xml.replaceAll("&sect;", "§");
+    xml = xml.replaceAll("&uml;", "¨");
+    xml = xml.replaceAll("&copy;", "©");
+    xml = xml.replaceAll("&ordf;", "ª");
+    xml = xml.replaceAll("&laquo;", "«");
+
+    xml = xml.replaceAll("&not;", "¬");
+    xml = xml.replaceAll("&shy;", " ");
+    xml = xml.replaceAll("&reg;", "®");
+    xml = xml.replaceAll("&macr;", "¯");
+    xml = xml.replaceAll("&deg;", "°");
+    xml = xml.replaceAll("&plusmn;", "±");
+    xml = xml.replaceAll("&sup2;", "²");
+    xml = xml.replaceAll("&sup3;", "³");
+
+    xml = xml.replaceAll("&acute;", "´");
+    xml = xml.replaceAll("&micro;", "µ");
+    xml = xml.replaceAll("&para;", "¶");
+    xml = xml.replaceAll("&middot;","·");
+    xml = xml.replaceAll("&cedil;", "¸");
+    xml = xml.replaceAll("&sup1;", "¹");
+    xml = xml.replaceAll("&ordm;", "º");
+    xml = xml.replaceAll("&raquo;", "»");
+
+    xml = xml.replaceAll("&frac14;", "¼");
+    xml = xml.replaceAll("&frac12;", "½");
+    xml = xml.replaceAll("&frac34;", "¾");
+    xml = xml.replaceAll("&iquest;", "¿");
+    xml = xml.replaceAll("&times;", "×");
+    xml = xml.replaceAll("&divide;", "÷");
+    xml = xml.replaceAll("&Agrave;", "À");
+    xml = xml.replaceAll("&Aacute;", "Á");
+
+    xml = xml.replaceAll("&Acirc;", "Â");
+    xml = xml.replaceAll("&Atilde;", "Ã");
+    xml = xml.replaceAll("&Auml;", "Ä");
+    xml = xml.replaceAll("&Aring;", "Å");
+    xml = xml.replaceAll("&AElig;", "Æ");
+    xml = xml.replaceAll("&Ccedil;", "Ç");
+    xml = xml.replaceAll("&Egrave;", "È");
+    xml = xml.replaceAll("&Eacute;", "É");
+
+    xml = xml.replaceAll("&Ecirc;", "Ê");
+    xml = xml.replaceAll("&Euml;", "Ë");
+    xml = xml.replaceAll("&Igrave;", "Ì");
+    xml = xml.replaceAll("&Iacute;", "Í");
+    xml = xml.replaceAll("&Icirc;", "Î");
+    xml = xml.replaceAll("&Iuml;", "Ï");
+    xml = xml.replaceAll("&ETH;", "Ð");
+    xml = xml.replaceAll("&Ntilde;", "Ñ");
+
+    xml = xml.replaceAll("&Ograve;", "Ò");
+    xml = xml.replaceAll("&Oacute;", "Ó");
+    xml = xml.replaceAll("&Ocirc;", "Ô");
+    xml = xml.replaceAll("&Otilde;", "Õ");
+    xml = xml.replaceAll("&Ouml;", "Ö");
+    xml = xml.replaceAll("&Oslash;", "Ø");
+    xml = xml.replaceAll("&Ugrave;", "Ù");
+    xml = xml.replaceAll("&Uacute;", "Ú");
+
+    xml = xml.replaceAll("&Ograve;", "Ò");
+    xml = xml.replaceAll("&Oacute;", "Ó");
+    xml = xml.replaceAll("&Ocirc;", "Ô");
+    xml = xml.replaceAll("&Otilde;", "Õ");
+    xml = xml.replaceAll("&Ouml;", "Ö");
+    xml = xml.replaceAll("&Oslash;", "Ø");
+    xml = xml.replaceAll("&Ugrave;", "Ù");
+    xml = xml.replaceAll("&Uacute;", "Ú");
+
+    xml = xml.replaceAll("&Ucirc;", "Û");
+    xml = xml.replaceAll("&Uuml;", "Ü");
+    xml = xml.replaceAll("&Yacute;", "Ý");
+    xml = xml.replaceAll("&THORN;", "Þ");
+    xml = xml.replaceAll("&szlig;", "ß");
+    xml = xml.replaceAll("&agrave;", "à");
+    xml = xml.replaceAll("&aacute;", "á");
+    xml = xml.replaceAll("&acirc;", "â");
+
+    xml = xml.replaceAll("&atilde;", "ã");
+    xml = xml.replaceAll("&auml;", "ä");
+    xml = xml.replaceAll("&aring;", "å");
+    xml = xml.replaceAll("&aelig;", "æ");
+    xml = xml.replaceAll("&ccedil;", "ç");
+    xml = xml.replaceAll("&egrave;", "è");
+    xml = xml.replaceAll("&eacute;", "é");
+    xml = xml.replaceAll("&ecirc;", "ê");
+
+    xml = xml.replaceAll("&euml;", "ë");
+    xml = xml.replaceAll("&igrave;", "ì");
+    xml = xml.replaceAll("&iacute;", "í");
+    xml = xml.replaceAll("&icirc;", "î");
+    xml = xml.replaceAll("&iuml;", "ï");
+    xml = xml.replaceAll("&eth;", "ð");
+    xml = xml.replaceAll("&ntilde;", "ñ");
+    xml = xml.replaceAll("&ograve;", "ò");
+
+    xml = xml.replaceAll("&oacute;", "ó");
+    xml = xml.replaceAll("&ocirc;", "ô");
+    xml = xml.replaceAll("&otilde;", "õ");
+    xml = xml.replaceAll("&ouml;", "ö");
+    xml = xml.replaceAll("&oslash;", "ø");
+    xml = xml.replaceAll("&ugrave;", "ð");
+    xml = xml.replaceAll("&ntilde;", "ù");
+    xml = xml.replaceAll("&uacute;", "ú");
+
+    xml = xml.replaceAll("&ucirc;", "û");
+    xml = xml.replaceAll("&uuml;", "ü");
+    xml = xml.replaceAll("&yacute;", "ý");
+    xml = xml.replaceAll("&thorn;", "þ");
+    xml = xml.replaceAll("&oslash;", "ø");
+    xml = xml.replaceAll("&ugrave;", "ð");
+    xml = xml.replaceAll("&ntilde;", "ù");
+    xml = xml.replaceAll("&uacute;", "ú");
+    
+    xml = xml.replaceAll("&lsaquo;", "‹");
+    xml = xml.replaceAll("&rsaquo;", "›");
+    xml = xml.replaceAll("&oline;", "‾");
+    xml = xml.replaceAll("&frasl;", "⁄");
+    
+    xml = xml.replaceAll("&bull;", "•");
+    xml = xml.replaceAll("&hellip;", "…");
+    xml = xml.replaceAll("&permil;", "‰");
+    xml = xml.replaceAll("&prime;", "′");
+    xml = xml.replaceAll("&Prime;", "″");
+    xml = xml.replaceAll("&sbquo;", "‚");
+    
+    xml = xml.replaceAll("&euro;", "€");
+    xml = xml.replaceAll("&rarr;", "→");
+    
+    
+    xml = "<div>"+ xml + "</div>";
+    
+    return xml;
+
+}
+
+}
